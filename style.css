@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+img[src="logo.png"] {
+    width: 60px;
+    margin-left: 30px;
+}
+
+.group-pic {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 250px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav-list {
+    display: inline;
+}
+
+#logo {
+    float: left;
+}
+
+.nav-list a {
+    display: block;
+    text-align: center;
+    padding: 10px 35px;
+    margin: 5px;
+    margin-inline: 20px;
+    text-decoration: none;
+    float: right;
+    border: 2px solid transparent;
+}
+
+.nav-list a:hover {
+    border-color: black;
+}
+
+.icons {
+    list-style-type: none;
+    margin: 10px;
+    float: left;
+    width: 20px;
+}
+
+div {
+    display: inline;
+}
+
+form {
+    float: right;
+    margin-right: 30px;
+}
+
+section {
+    border-bottom: 1px solid #ccc;
+    padding: 40px;
+}
+
+iframe {
+    height: 500px;
+    width: 100%;
+}
+
+h1, h2 {
+    color:cornflowerblue;
+}
+
+@media (max-width: 800px) {
+    iframe {
+        height: 200px;
+        width: 100%;
+    }
+}
